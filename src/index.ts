@@ -1,4 +1,4 @@
-import noLiteral from "./rules/no-literal";
+import { rule as noLiteral } from "./rules/no-literal";
 
 export = {
   rules: {

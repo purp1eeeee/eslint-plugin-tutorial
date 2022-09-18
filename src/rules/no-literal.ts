@@ -1,6 +1,6 @@
 import { Rule } from "eslint";
 
-const rule: Rule.RuleModule = {
+export const rule: Rule.RuleModule = {
   create: context => {
     return {
       Literal: node => {
@@ -12,5 +12,3 @@ const rule: Rule.RuleModule = {
     };
   },
 };
-
-export = rule;
